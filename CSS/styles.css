@@ -767,9 +767,10 @@ img {
 
   transform: translateY(100%);
   overflow: auto;
+
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover .portfolio-top-text {
   transform: translateY(0%);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
